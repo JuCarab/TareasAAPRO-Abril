@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@media screen (min-width: 769px) and (max-width: 1024px) {
+    .container
+}
+
+.container {
+    margin: 20px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    background-color: red;
+    margin: 2px;
+    padding: 100px;
+}
+
+.parte1 {
+    background-color: blue;
+}
+.parte2 {
+    background-color: yellow;
+}
+.parte3 {
+    background-color: black;
+}
+.parte4 {
+    background-color: purple;
+}
+.parte5 {
+    background-color: orangered;
+}
+.parte6 {
+    background-color: rgb(241, 43, 165);
+}
+.parte7 {
+    background-color: red;
+}
+.parte8 {
+    background-color: green;
+}
+.parte9 {
+    background-color: lightslategray;
+}
