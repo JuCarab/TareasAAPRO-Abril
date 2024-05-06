@@ -1,10 +1,26 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+
+body {
+    border: 2px solid rgb(204, 91, 204);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 tr {
     background-color: whitesmoke;
 }
 
 /* DIAS */
 b {
-    background-color: whitesmoke;
+    background-color: rgb(233, 202, 233);
     color: black;
     font-size: 21px;
 }
@@ -47,13 +63,21 @@ i {
 .header {
     background-color: rgb(214, 106, 191);
     width: 100%;
-    height: 40px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
 }
 
 .footer {
     background-color: rgb(144, 224, 198);
     width: 100%;
-    height: 25px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;  
 }
 
 .borde {
@@ -61,8 +85,39 @@ i {
     height: 25px;
     border-color: rgb(224, 74, 199);
     border width: 50px;   
+    
 }
 
 .ul {
     list-style:none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(95, 4, 95);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: rgb(95, 4, 95);
+    text-decoration: underline;
+    font-size: 20px;
+    transition: all 0.2s;
+}
+
+main {
+    padding: 0 20px;
+}
+
+h1 {
+    margin: 30px;
+}
+
+.container {
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 5fr 0.3fr 5fr;
 }
