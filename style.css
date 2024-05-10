@@ -7,7 +7,6 @@
 }
 
 body {
-    border: 2px solid rgb(204, 91, 204);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -27,7 +26,7 @@ b {
 
 /* HORARIOS */
 i {
-    background-color: whitesmoke;
+    background-color: white;
     color: black;
 }
 
@@ -81,10 +80,10 @@ i {
 }
 
 .borde {
-    width : 300px;
-    height: 25px;
-    border-color: rgb(224, 74, 199);
-    border width: 50px;   
+    width : 33%;
+    height: 35px;
+    border-color: rgb(157, 219, 221);
+    border width: 50px; 
     
 }
 
